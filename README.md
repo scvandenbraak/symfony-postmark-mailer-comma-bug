@@ -1,5 +1,9 @@
 # Postmark Transport Bug: Comma in name not escaped
-Run this command to see the comma will not be escaped:
+
+## Install
+Clone this repository and run `composer install`
+
+## Show comma is not begin escaped
 ```
 $ php bin/console postmark-name-comma-not-escaped
 ```
